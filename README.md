@@ -22,7 +22,7 @@ Backend robusto para una red social desarrollado con **.NET 8**. Este proyecto f
 este proyecto esta pensado para trabajarce despde railwey o ser debujeado desde la computadora del desarollador y en ningun momento llego a produccion.
 crear un archivo .env con lo sigiente o poner laas mimsas variables en railwey:
 
-//------------------------------------------------------------------------------//
+
 # Configuración del Servidor
 PORT=5000
 Cors_AllowedOrigins_="http://localhost:3000"
@@ -54,4 +54,3 @@ EMAIL_SENDER_API="https://tu-api-email.com"
 SES_SENDER_EMAIL="tu-email@verificado.com"
 AWS_ACCESS_KEY_ID="TU_AWS_KEY"
 AWS_SECRET_ACCESS_KEY="TU_AWS_SECRET"
-//------------------------------------------------------------------------------//
