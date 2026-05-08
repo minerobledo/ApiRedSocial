@@ -1,0 +1,23 @@
+# --- .NET Build Output ---
+[bin/|cite: 1]
+[obj/|cite: 1]
+[Release/|cite: 1]
+[Releace/|cite: 1]
+**/bin/
+**/obj/
+**/Release/
+**/Releace/
+
+# --- Secretos y Configuración ---
+.env
+**/firebase-credentials.json
+Api/appsettings.Development.json
+**/appsettings.Development.json
+*.user
+
+# --- IDE y Logs ---
+.vs/
+.idea/
+*.log
+.firebase/
+node_modules/

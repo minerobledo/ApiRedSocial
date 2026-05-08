@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONFIRMAR CORREO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #e6e6e6;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #7b1fa2;
+            padding: 20px;
+            border-radius: 8px;
+            color: white;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .body {
+            padding: 20px;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .footer {
+            padding: 20px;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .footer-link {
+            color: #7b1fa2;
+            text-decoration: none;
+        }
+        
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 20px 0;
+            font-size: 16px;
+            color: white;
+            background-color: #7b1fa2;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #6a178e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Confirmar email</h1>
+        </div>
+        <div class="body">
+            <p>Hola {{senderNickname}},</p>
+            <p>¡Gracias por registrarte en RedSelecta! Para completar el proceso de registro, por favor confirma tu dirección de correo electrónico haciendo clic en el siguiente enlace:</p>
+
+            <a href="{{button_link}}" class="button" target="_blank" style="color: white; text-decoration: none;">Confirmar correo</a>
+
+            <p>Si no solicitaste esta verificación, simplemente ignora este correo.</p>
+            <p>Gracias por unirte a RedSelecta. Si tienes alguna pregunta, no dudes en contactarnos.</p>
+        </div>
+        <div class="footer">
+            <p>Atentamente,<br>El equipo de RedSelecta</p>
+            <p><a href="https://www.redselecta.com/" class="footer-link"> redselecta.com </a></p>
+        </div>
+    </div>
+</body>
+</html>
