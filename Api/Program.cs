@@ -6,12 +6,15 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Aplication.Features.Frinship.Command.ResonceFriendshipRequest;
 using Microsoft.AspNetCore.HttpOverrides;
 using System.Text;
+using dotenv.net;
 using Api.Middleware;
 
 // --- INICIO DE LA APLICACIÓN ---
 Console.WriteLine("--- Aplicación ASP.NET Core Iniciando ---");
 
 var builder = WebApplication.CreateBuilder(args);
+
+DotEnv.Load();
 
 builder.WebHost.ConfigureKestrel(serverOptions =>
 {

@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución",
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
 		global.json = global.json
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
@@ -42,5 +43,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88336C27-639B-4626-A5F2-C87996858FDE}
 	EndGlobalSection
 EndGlobal
